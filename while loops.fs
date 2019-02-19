@@ -1,9 +1,12 @@
 open System
 
-let count:int32 = 20
-let mutable i = 0
-while (i < count) do
-    i <- i + 1
-    printfn "%i" i
+let mutable count = 0
+let i:int32 = Console.ReadLine() |> int
+
+[<EntryPoint>]
+printfn "%i" count
+while (count < i) do
+    count <- count + 1
+    printfn "%i" count
 
 Console.ReadLine() |> ignore
