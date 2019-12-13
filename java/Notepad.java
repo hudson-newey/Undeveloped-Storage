@@ -3,6 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.Font;
 import javax.swing.*;
+import java.awt.*;
 
 
 class Notepad {
@@ -13,6 +14,9 @@ class Notepad {
     final JTextArea textArea = new JTextArea(10, 40);
     f.getContentPane().add(BorderLayout.CENTER, textArea);
     textArea.setFont(new Font("Dialog", Font.PLAIN, 16));
+    textArea.setBackground(Color.decode("#282c34"));
+    textArea.setForeground(Color.decode("#abb2bf"));
+    textArea.setCaretColor(Color.decode("#abb2bf"));
 
     f.setVisible(true);
   }
