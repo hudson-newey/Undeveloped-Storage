@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use diagnostics;
 
 sub program() {
     # actuall program to run
@@ -7,8 +8,7 @@ sub program() {
 
 
 
-my $username = "admin";
-my $password = "admin1234";
+my ($username, $password) = ("admin", "admin1234");
 
 print "Username:\n>";
 chomp(my $usr = <STDIN>);

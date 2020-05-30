@@ -1,0 +1,8 @@
+vue
+ruby on rails
+react
+
+rust
+F#
+R
+tensorflow
