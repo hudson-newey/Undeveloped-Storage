@@ -1,8 +1,11 @@
+I know: C, C++, C#, VB.net, HTML, CSS, JavaScript, NodeJS, CoffeeScript, TypeScript, Python, Ruby, Go, Batch, F#
+Kinda Know: Perl5, Java, Markdown
+
+Want to Learn:
 vue
 ruby on rails
 react
 
 rust
-F#
 R
 tensorflow
